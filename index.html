@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile</title>
+    <link rel="stylesheet" href="/Styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="navbar-container">
+      <button id="btn-menu" aria-label="Toggle Menu">
+        <i class="fas fa-bars" style="font-size: 36px"></i>
+      </button>
+      <div class="logo">
+        <h2>PROFILE</h2>
+      </div>
+      <nav class="nav-list">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="text-content">
+          <h3>Hi, MySelf</h3>
+          <h1>Wilson Boyaron Hutagalung</h1>
+          <p>
+            I am a 5th semester student with a strong passion for backend
+            development and an interest in cloud computing. I am eager to learn
+            and collaborate on impactful projects that make a difference in the
+            tech world!
+          </p>
+          <div class="social-links">
+            <a
+              href="https://github.com/WilsonHutagalung"
+              target="_blank"
+              class="github"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/wilsonboyaronhutagalung/"
+              target="_blank"
+              class="linkedin"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/wilsonhutagalung17/"
+              target="_blank"
+              class="instagram"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+
+          <div class="button-container">
+            <a
+            href="https://drive.google.com/uc?export=download&id=1QQK4fTHgidSaP2la7BfLlhVBrjeO1tXZ"
+            download="Wilson_CV.pdf">
+            <button class="btn-main">Download CV</button>
+          </a>
+          </div>
+        </div>
+        <div class="image-content">
+          <img src="images/Pas_Foto-removebg-preview.png" alt="Your Photo" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm a 20-year-old fifth-semester Informatics student at
+        Universitas Mulawarman with a strong passion for technology and
+        innovation. This semester, I am honored to participate in the Kampus
+        Merdeka Program through the Bangkit Academy's Cloud Computing path,
+        which has provided me with a valuable opportunity to deepen my
+        understanding of cloud infrastructure, services, and solutions.
+        Previously, I served as a Staff member in the Minat Bakat division of
+        the Association of Informatics during 2022, where I was actively
+        involved in community-building activities, collaboration, and enhancing
+        skills within the Informatics field. This role helped me develop
+        essential teamwork, communication, and project management skills, which
+        I continue to refine as I pursue my academic and professional goals. My
+        main area of interest lies in backend development, where I enjoy working
+        on server-side programming, API development, and database management. I
+        am dedicated to mastering backend frameworks and tools like Node.js,
+        Express.js, and SQL, with the goal of building efficient, scalable, and
+        secure applications. Alongside my studies, I am committed to expanding
+        my knowledge of cloud computing platforms, such as Google Cloud, to
+        support the development of advanced backend systems that meet today's
+        dynamic technological demands. I'm excited about the future and always
+        open to new opportunities for growth and learning in the tech industry.
+        Whether it's through collaboration or exploring innovative projects, I
+        look forward to making meaningful contributions to the world of
+        technology.
+      </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skill-section">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="image-container">
+            <img src="images/Logo_Java.jpg" alt="Java Logo" />
+          </div>
+          <p>Java</p>
+        </div>
+        <div class="skill-card">
+          <div class="image-container">
+            <img src="images/Logo_Python.jpg" alt="Python Logo" />
+          </div>
+          <p>Python</p>
+        </div>
+        <div class="skill-card">
+          <div class="image-container">
+            <img src="images/Logo_PHP.jpg" alt="PHP Logo" />
+          </div>
+          <p>PHP</p>
+        </div>
+        <div class="skill-card">
+          <div class="image-container">
+            <img src="images/Logo_JS.jpg" alt="JavaScript Logo" />
+          </div>
+          <p>JavaScript</p>
+        </div>
+        <div class="skill-card">
+          <div class="image-container">
+            <img src="images/Logo_C++.jpg" alt="C++ Logo" />
+          </div>
+          <p>C++</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+      <p>You can reach me via email at: wboyaron@gmail.com</p>
+      <form
+        action="mailto:your-email@example.com"
+        method="post"
+        enctype="text/plain"
+        class="contact-form"
+      >
+        <label for="name">Your Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+        />
+
+        <label for="email">Your Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+
+        <label for="message">Your Message</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Write your message"
+          required
+        ></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Wilson Boyaron Hutagalung. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
